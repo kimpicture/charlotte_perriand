@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0; text-decoration: none;}
+
+header{
+width: 100%;
+height: 80px;
+background-color: #030207;
+display: flex;
+justify-content: center;
+align-items:center;
+
+}
+
+
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+header ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+header ul li a{
+color: #ffffff;
+text-transform: uppercase;
+font-size: 1em;
+transition: 0.8s;
+}
+
+header ul li a:hover{
+color: #ffffff;
+font-size: 1em;
+letter-spacing: 0.05em;
+transition: 0.8s;
+}
+
+.logo{width:312px;}
+.menu1{width:500px;}
+.menu2{width:180px;}
+.menu3{width:180px;
+}
+
+.main{
+  background-image: url('img/p2/01-2.png');
+  background-size: cover;
+  width: 100%;
+  height: 848px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  align-items: center;
+ background-position: center;
+
+}
+.con1{
+
+  width:100%;
+  height:1550px;
+  background-image: url('img/p2/02.png');
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;}
+
+  .con2{
+   width: 100%;
+    height:614px;
+    background-image:url('img/p2/03.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+
+  .con3{
+    margin-top: 91px;
+    width:100%;
+    height:282px;
+    background-image: url('img/p2/04.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.con4{
+  width:100%;
+  height:1150px;
+  background-image: url('img/p2/05.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con5{
+  margin-bottom: 91px;
+  width:100%;
+  height:420px;
+  background-image: url('img/p2/06.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  width: 100%;
+  height: 135px;
+  background-color: #030207;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 0.8em;
+  letter-spacing: 0.5em;}
